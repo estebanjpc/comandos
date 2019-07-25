@@ -1,0 +1,18 @@
+git config --global alias.xx "comando"
+git config --global alias.s "status -s -b"
+
+git config --global -l
+
+git reset --hard {id}
+git reflog (muestra todo el historial)
+
+git branch -d rama-villano (eliminar branch)
+git checkout <rama> (cambiarse de rama)
+git branch -b <nombre rama> (crear rama)
+
+git merge <nombre rama> (merge a la cual se quiere hacer)
+
+git tag -a v0.0.1 345d7de -m "version alpha"
+git tag
+git show <version>
+
