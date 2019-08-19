@@ -16,3 +16,29 @@ git tag -a v0.0.1 345d7de -m "version alpha"
 git tag
 git show <version>
 
+git stash -> crearlo
+git stash list -> listarlos
+git stash pop -> recuperar el ultimo stash
+git stash drop -> borrar stash
+git stash apply stash@{0} -> se pone el id
+git stash list --stat
+git show stash
+git show stash@{1}
+git stash save "agregamos xx cosa"
+git stash clear
+
+----------------------
+# h1
+## h2
+### h3
+
+![alt](url imagen)
+[ir a la imagen](url)
+-------------------------
+GITHUB
+
+git remote -v
+git push --tags
+git pull
+
+
